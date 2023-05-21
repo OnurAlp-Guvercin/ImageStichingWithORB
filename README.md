@@ -1,0 +1,3 @@
+# ImageStichingWithORB
+
+The project involved creating a panoramic image from a set of ordered images. The images were loaded and then projected onto a cylindrical surface using a specific angle value. SIFT (Scale-Invariant Feature Transform) features were extracted from the images, or alternative features like ORB were used if SIFT was not available. The features were then matched between consecutive image pairs and refined to improve accuracy. The translations between the images were found using the RANSAC algorithm. Finally, an empty image was created, and the input images were merged together using the calculated translations to generate the final panoramic image.
